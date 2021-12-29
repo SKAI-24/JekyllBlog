@@ -80,6 +80,7 @@ a {
   &:hover,
   &:active {
     color: #e64c70;
+    transition: 0.4s ease-in-out;
   }
 }
 
@@ -283,7 +284,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: #a3a3a3;
+  background-color: #2a343c;
 }
 
 footer {
