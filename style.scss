@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: #191f24;
+  background: #131313;
   font: 18px/1.4 $helvetica;
   color: #ebebeb;
 }
@@ -282,14 +282,20 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   background-color: #2a343c;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.entry {
+  text-align: justify;
+}
+
+.imagebanner img {
+  width: 100%;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
