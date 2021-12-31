@@ -5,6 +5,7 @@
 // IMPORTS
 //
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -19,7 +20,8 @@ html {
 
 body {
   background: #131313;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4;
+  font-family: "Roboto", sans-serif;
   color: #ebebeb;
 }
 
@@ -36,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $helveticaNeue;
+  font-family: "Roboto", sans-serif;
   color: #f3f1f9;
   font-weight: bold;
 
@@ -208,7 +210,7 @@ img {
   margin: 0;
   color: #ebebeb;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -218,7 +220,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
 
   @include mobile {
