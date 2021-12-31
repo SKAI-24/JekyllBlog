@@ -170,7 +170,6 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid #a3a3a3;
 
   @include mobile {
     text-align: center;
@@ -187,6 +186,7 @@ img {
     float: none;
     display: block;
     margin: 0 auto;
+    padding-bottom: 5px;
   }
 
   img {
@@ -212,6 +212,7 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  justify-content: center;
 }
 
 nav {
@@ -290,8 +291,9 @@ footer {
 
 .imagebanner img {
   width: 60%;
+  border-radius: 3%;
+  display: block;
   margin: auto;
-  border-radius: 5%;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
